@@ -1,10 +1,12 @@
 #include<stdio.h>
 
 int main() {
-    char a[4] = "213";  // Increased array size to accommodate null terminator
+    char a[4] = "213";  
+// Increased array size to accommodate null terminator
     int res = 0;
 
-    for(int i=0; i<3; i++) {
+    for(int i=0; i<3; i++)
+    {
         res = (res * 10) + (a[i] - '0');  // Fixed subtraction syntax
     }
 
